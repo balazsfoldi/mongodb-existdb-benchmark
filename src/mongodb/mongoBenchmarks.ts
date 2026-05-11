@@ -122,3 +122,11 @@ export async function benchmarkIndexedFind() {
 
   return end - start
 }
+
+export async function clearMongoDatabase() {
+  console.log('Clearing MongoDB database...')
+  const collection =
+    await getBooksCollection()
+
+  await collection.deleteMany({})
+}
