@@ -47,9 +47,26 @@ type Book = {
 ```text
 src/
 ├── generators/
+│   └── generateBooks.ts
+│
+├── models/
+│   └── Book.ts
+│
 ├── mongodb/
+│   ├── mongoClient.ts
+│   └── mongoBenchmarks.ts
+│
 ├── existdb/
+│   ├── existClient.ts
+│   └── existBenchmarks.ts
+│
 ├── benchmarks/
+│   ├── benchmark.ts
+│   └── benchmarkRunner.ts
+│
+├── utils/
+│   └── timer.ts
+│
 └── index.ts
 ```
 
