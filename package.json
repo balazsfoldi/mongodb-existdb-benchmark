@@ -1,0 +1,29 @@
+{
+  "name": "mongodb-existdb-benchmark",
+  "version": "1.0.0",
+  "description": "Performance comparison project between MongoDB and eXistDB databases using TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balazsfoldi/mongodb-existdb-benchmark.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/balazsfoldi/mongodb-existdb-benchmark/issues"
+  },
+  "homepage": "https://github.com/balazsfoldi/mongodb-existdb-benchmark#readme",
+  "devDependencies": {
+    "@types/node": "^25.6.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "uuid": "^14.0.0"
+  }
+}
